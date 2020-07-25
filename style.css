@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* max-width: 1100px; */
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+#navbar img {
+  height: 50px;
+  margin-left: 5rem;
+}
+#navbar {
+  text-align: center;
+  /* height: 50px; */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 19px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25), 0 1px 5px rgba(0, 0, 0, 0.22);
+
+  /* width: 100%; */
+  /* justify-content: space-between; */
+}
+#navbar ul li a {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: #333;
+}
+
+#navbar ul li:first-child {
+  margin-top: 0;
+}
+#navbar ul li:last-child {
+  margin-top: -2px;
+}
+.btn {
+  background: #4a154b;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.btn2 {
+  background: inherit;
+  color: #4a154b;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+.flex-end {
+  flex: 1;
+}
+
+/* showcase */
+#showcase {
+  background: url("https://a.slack-edge.com/59662/marketing/img/homepage/video/brand-campaign_hero-poster.jpg")
+    no-repeat center center/cover;
+  height: 60vh;
+  width: 100%;
+}
+
+#showcase > div {
+  font-size: 1.8rem;
+  width: 40%;
+  padding-top: 2rem;
+  margin-left: 4rem;
+  font-weight: 900;
+}
+
+#showcase h1 {
+  margin-bottom: 0.4rem;
+}
+
+#showcase h5 {
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+#showcase p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+#showcase .btn {
+  margin-left: 0.6rem;
+  padding: 1rem;
+}
+
+#showcase .btn2 {
+  padding: 1rem;
+}
+/* showcase2 */
+#showcase2 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+#showcase2 h1 {
+  margin-bottom: 0;
+}
+#showcase2 video {
+  margin-top: 4rem;
+}
+/* showcase3 */
+/* #showcase3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+} */
+
+#showcase3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#showcase3 > div {
+  width: 25%;
+}
+
+/* showcase4 */
+#showcase4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  margin: 6rem;
+}
+
+#showcase4 div:first-child,
+#showcase4 div:last-child {
+  width: 80%;
+}
+/* #showcase4 div h1 {
+  font-size: 3.5rem;
+} */
+/* showcase5 */
+#showcase5 {
+  background: #dddddd;
+  height: 100vh;
+  text-align: center;
+}
+#showcase5 p,
+#showcase5 small {
+  margin-top: 0;
+  padding-top: 0;
+}
+#showcase5 h1 {
+  margin-bottom: 0.4rem;
+  padding-top: 4rem;
+}
+
+.heading {
+  font-size: 3.2rem;
+}
+
+#showcase5 .customer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+#showcase5 .customer > img {
+  transition: all 0.7s ease;
+}
+
+#showcase5 .customer > img:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#showcase5 .isponser {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+/* showcase6 */
+#showcase6 {
+  text-align: center;
+}
+#showcase6 .card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  padding: 0 1rem;
+}
+#showcase6 p {
+  width: 73%;
+  margin-left: 3.3rem;
+  text-align: center;
+}
+#showcase6 .card > div {
+  transition: all 0.7s ease;
+}
+
+#showcase6 .card img {
+  padding-top: 1.5rem;
+}
+
+#showcase6 .card > div:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+/* showcase7 */
+#showcase7 {
+  background: #4a154b;
+  height: 60vh;
+  text-align: center;
+  color: #fff;
+}
+.btn3 {
+  background: #fff;
+  color: #4a154b;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.btn4 {
+  background: #4a154b;
+  color: #fff;
+  border: #fff 1px solid;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: 3rem;
+}
+#showcase7 h1 {
+  padding-top: 4rem;
+}
+
+/* about */
+#about {
+  display: flex;
+  justify-content: center;
+}
+#about img {
+  margin-left: -12px;
+  margin-top: 2rem;
+  padding-left: 0;
+  padding-top: 0.5rem;
+}
+
+#about div {
+  margin-left: 2rem;
+}
+#about h3 {
+  margin-top: 3rem;
+}
+
+#about ul {
+  list-style: none;
+}
+
+#about ul li a {
+  text-decoration: none;
+  color: #333;
+}
+/* footer */
+#footer {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background: #ddd;
+  font-size: smaller;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#footer .footer-contant ul {
+  display: flex;
+  list-style: none;
+  color: #333;
+}
+#footer .footer-contant ul a {
+  text-decoration: none;
+  color: #333;
+  padding-left: 2rem;
+}
+
+#footer .social ul {
+  display: flex;
+  list-style: none;
+  padding-left: 2rem;
+}
+#footer i {
+  padding: 0 2rem;
+  display: inline-block;
+}
+#footer2 {
+  height: 30px;
+  background: #ccc;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+#footer2 h6 {
+  margin: 0;
+  padding-top: 0.6rem;
+}
