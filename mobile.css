@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#navbar ul {
+  flex-wrap: wrap;
+}
+#navbar img {
+  margin-left: -45px;
+  margin-top: -10px;
+}
+#navbar ul li a {
+  font-size: xx-small;
+  padding: 0.2rem;
+}
+.btn {
+  padding: 0.25rem 0.5rem;
+  font-size: small;
+  margin-top: 0;
+}
+.btn2 {
+  padding: 0.25rem 0.5rem;
+  font-size: small;
+}
+.heading {
+  font-size: 1.8rem;
+}
+p {
+  font-size: medium;
+}
+#showcase h5 {
+  font-size: small;
+}
+#showcase > div {
+  width: 80%;
+  padding-top: 2rem;
+  margin-left: 4rem;
+  font-weight: 900;
+}
+/* showcase2 */
+#showcase2 video {
+  width: 100vw;
+}
+/* showcase3 */
+#showcase3 {
+  display: inline;
+  align-items: center;
+  text-align: center;
+}
+#showcase3 > div {
+  width: 100%;
+}
+
+/* showcase4 */
+#showcase4 {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#showcase4 > div {
+  margin: 0 auto;
+}
+
+#showcase4 video {
+  width: 100vw;
+}
+#showcase4 p {
+  font-size: 1rem;
+}
+/* showcsae5 */
+#showcase5 {
+  height: 170vh;
+}
+
+#showcase5 .customer {
+  display: inline;
+  /* justify-content: space-around; */
+  margin-top: 2rem;
+}
+#showcase5 .isponser {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+
+/* showcase6 */
+#showcase6 .card {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+/* showcase7 */
+#showcase7 {
+  height: 40vh;
+  text-align: center;
+  color: #fff;
+}
+#showcase7 h1 {
+  padding-top: 3rem;
+}
+/* about */
+#about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#about ul {
+  padding-left: 0;
+  font-size: 1rem;
+}
+
+#about img {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  padding-left: 0;
+  padding-top: 0.5rem;
+  width: 150px;
+  height: 150px;
+}
+/* footer */
+#footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+#footer .footer-contant ul a {
+  padding-left: 0.3rem;
+  font-size: small;
+}
+#footer .social ul {
+  padding-left: 0.2rem;
+}
+#footer i {
+  padding: 0.3rem;
+  display: inline-block;
+  font-size: small;
+}
+#footer2 {
+  font-size: small;
+}
